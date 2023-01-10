@@ -1,0 +1,31 @@
+#cabinet 사용해서 유재석, 김태호꺼내기 2가지 (3:유재석, 100:김태호)
+#cabinet trut false 뜨게하기.
+# A-3을 유재석으로, B-100을 김태호로 쓰기
+# A-3을 유재석에서 김종국으로 바꾸기
+# C-20 조세호 추가하기
+# key들만 출력
+# value들만 출력
+# key, value 쌍으로 출력 (item)
+
+
+
+
+# cabinet = {3:"유재석", 100:"김태호"}
+# print(cabinet[3])
+# print(cabinet[100])
+# print(cabinet.get(3))
+# print(cabinet.get(5))
+# print("hi")
+# print(3 in cabinet)
+# print(5 in cabinet)
+
+cabinet = {"A-3": "유재석", "B-100": "김태호"}
+# cabinet["A-3"] = "김종국"
+# cabinet["C-20"] = "조세호"
+# print(cabinet)
+
+# del cabinet["A-3"]
+# print(cabinet)
+# print(cabinet.keys())
+# print(cabinet.values())
+print(cabinet.items())
