@@ -29,4 +29,6 @@ cabinet = {"A-3": "유재석", "B-100": "김태호"}
 # print(cabinet.keys())
 # print(cabinet.values())
 print(cabinet.items())
-print("바보")
+print("테스트1")
+print("테스트2")
+print("테스트3")
